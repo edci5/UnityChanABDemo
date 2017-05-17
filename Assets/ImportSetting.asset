@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec4882d68a9346b3b5f8ecf1e38a534, type: 3}
+  m_Name: ImportSetting
+  m_EditorClassIdentifier: 
+  m_allNodes:
+  - m_name: Load from 2D
+    m_id: c121b64b-5bee-4484-b0af-b32a5646b7f9
+    m_x: 144
+    m_y: 120
+    m_nodeInstance:
+      m_className: UnityEngine.AssetBundles.GraphTool.Loader
+      m_instanceData: B64|eyJtX2xvYWRQYXRoIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiIyRCJ9XX19
+    m_inputPoints: []
+    m_outputPoints:
+    - id: 3567da0c-70f6-441c-8716-13eea641ceda
+      label: +
+      parentId: c121b64b-5bee-4484-b0af-b32a5646b7f9
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 116
+        y: 32.5
+        width: 10
+        height: 23
+  - m_name: Split By Filter
+    m_id: 9b68f52f-527a-43fe-85fe-c4ca89cfd322
+    m_x: 360
+    m_y: 120
+    m_nodeInstance:
+      m_className: UnityEngine.AssetBundles.GraphTool.Filter
+      m_instanceData: B64|eyJtX2ZpbHRlciI6W3sibV9pbnN0YW5jZSI6eyJtX2NsYXNzTmFtZSI6IlVuaXR5RW5naW5lLkFzc2V0QnVuZGxlcy5HcmFwaFRvb2wuRmlsdGVyQnlOYW1lQW5kVHlwZSIsIm1faW5zdGFuY2VEYXRhIjoiQjY0fGV5SnRYMlpwYkhSbGNrdGxlWGR2Y21RaU9pSWlMQ0p0WDJacGJIUmxja3RsZVhSNWNHVWlPaUpWYm1sMGVVVmthWFJ2Y2k1VVpYaDBkWEpsU1cxd2IzSjBaWElpZlE9PSJ9LCJtX3BvaW50SWQiOiI3Yjc0M2I3Ni00ZTFmLTQyOTgtOWYzNy1hYWEwODczN2EwYmEifV19
+    m_inputPoints:
+    - id: 41ce7fec-46de-4c5e-8556-9319d44b341e
+      label: '-'
+      parentId: 9b68f52f-527a-43fe-85fe-c4ca89cfd322
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: 7b743b76-4e1f-4298-9f37-aaa08737a0ba
+      label: '[TextureImporter]'
+      parentId: 9b68f52f-527a-43fe-85fe-c4ca89cfd322
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 150
+        y: 32.5
+        width: 10
+        height: 23
+  - m_name: Sprites
+    m_id: e043a80f-8496-43f0-8819-e15bf325439b
+    m_x: 768
+    m_y: 120
+    m_nodeInstance:
+      m_className: UnityEngine.AssetBundles.GraphTool.ImportSetting
+      m_instanceData: B64|eyJtX3Nwcml0ZVBhY2tpbmdUYWdOYW1lVGVtcGxhdGUiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IlRhZyoifV19LCJtX292ZXJ3cml0ZVBhY2tpbmdUYWciOnRydWV9
+    m_inputPoints:
+    - id: b97e1e63-a3e4-4b51-add9-ee6b1bfdc625
+      label: '-'
+      parentId: e043a80f-8496-43f0-8819-e15bf325439b
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: de506b9a-92f7-4d80-95f6-7030612f3f23
+      label: +
+      parentId: e043a80f-8496-43f0-8819-e15bf325439b
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 111
+        y: 32.5
+        width: 10
+        height: 23
+  - m_name: Group By File Path
+    m_id: 4511bd68-b67a-469e-80e2-1e704d89c603
+    m_x: 576
+    m_y: 120
+    m_nodeInstance:
+      m_className: UnityEngine.AssetBundles.GraphTool.Grouping
+      m_instanceData: B64|eyJtX2dyb3VwaW5nS2V5d29yZCI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoiMkQvKi8ifV19LCJtX3BhdHRlcm5UeXBlIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjB9XX0sIm1fYWxsb3dTbGFzaCI6ZmFsc2V9
+    m_inputPoints:
+    - id: 8dc61d7d-9387-4ecf-a3aa-1adda229bbf6
+      label: '-'
+      parentId: 4511bd68-b67a-469e-80e2-1e704d89c603
+      isInput: 1
+      buttonRect:
+        serializedVersion: 2
+        x: 0
+        y: 29.5
+        width: 21
+        height: 29
+    m_outputPoints:
+    - id: 41fc9dc3-8cfa-4bec-b55a-361912b025f3
+      label: +
+      parentId: 4511bd68-b67a-469e-80e2-1e704d89c603
+      isInput: 0
+      buttonRect:
+        serializedVersion: 2
+        x: 139
+        y: 32.5
+        width: 10
+        height: 23
+  m_allConnections:
+  - m_id: 674da53d-58a2-45b8-b9a6-0dc69c97c01f
+    m_fromNodeId: c121b64b-5bee-4484-b0af-b32a5646b7f9
+    m_fromNodeConnectionPointId: 3567da0c-70f6-441c-8716-13eea641ceda
+    m_toNodeId: 9b68f52f-527a-43fe-85fe-c4ca89cfd322
+    m_toNodeConnectionPoiontId: 41ce7fec-46de-4c5e-8556-9319d44b341e
+    m_label: +
+  - m_id: 3bd1a52d-2589-4d90-9fc6-6c5e49f977a2
+    m_fromNodeId: 9b68f52f-527a-43fe-85fe-c4ca89cfd322
+    m_fromNodeConnectionPointId: 7b743b76-4e1f-4298-9f37-aaa08737a0ba
+    m_toNodeId: 4511bd68-b67a-469e-80e2-1e704d89c603
+    m_toNodeConnectionPoiontId: 8dc61d7d-9387-4ecf-a3aa-1adda229bbf6
+    m_label: '[TextureImporter]'
+  - m_id: 7fa716a7-6df4-4a12-8c6f-8a17a9cea9ab
+    m_fromNodeId: 4511bd68-b67a-469e-80e2-1e704d89c603
+    m_fromNodeConnectionPointId: 41fc9dc3-8cfa-4bec-b55a-361912b025f3
+    m_toNodeId: e043a80f-8496-43f0-8819-e15bf325439b
+    m_toNodeConnectionPoiontId: b97e1e63-a3e4-4b51-add9-ee6b1bfdc625
+    m_label: +
+  m_lastModified: 131394633350210330
+  m_version: 2
+  m_graphDescription: 
+  m_useAsAssetPostprocessor: 1

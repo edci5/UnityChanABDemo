@@ -1,4 +1,6 @@
-﻿//
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+//
 // Kino/Bloom v2 - Bloom filter for Unity
 //
 // Copyright (C) 2015, 2016 Keijiro Takahashi
@@ -178,7 +180,7 @@ Shader "Hidden/Kino/Bloom"
     v2f_multitex vert_multitex(appdata_full v)
     {
         v2f_multitex o;
-        o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+        o.pos = UnityObjectToClipPos(v.vertex);
         o.uvMain = v.texcoord.xy;
         o.uvBase = v.texcoord.xy;
     #if UNITY_UV_STARTS_AT_TOP
