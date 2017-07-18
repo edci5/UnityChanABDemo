@@ -23,7 +23,7 @@ MonoBehaviour:
     m_name: New Streaming Assets
     m_serverURL: 
     m_localAssetBundleDirectory: 
-    m_manifestFileName: Bundles
+    m_manifestFileName: StreamingAssets
     m_isLocalServer: 0
     m_isStreamingAssets: 1
     m_withPlatformSubDir: 0
