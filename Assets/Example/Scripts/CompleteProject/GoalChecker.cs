@@ -26,6 +26,8 @@ namespace CompleteProject
 		int goalTimeSec;
 		public bool isStarted = false;
 
+        public string nextStage;
+
 		void Start()
 		{
 			goalText.enabled = false;
@@ -124,13 +126,8 @@ namespace CompleteProject
 
 		public void NextStage()
 		{
-			int nowSceneId = SceneManager.GetActiveScene().buildIndex;
-			//SceneManager.UnloadScene( nowSceneId );
-			nowSceneId = nowSceneId + 1;
-			if ( nowSceneId >= SceneManager.sceneCountInBuildSettings ) {
-				nowSceneId = 0;
-			}
-			SceneManager.LoadScene( nowSceneId );
+            AssetBundles.Manager.SceneLoader.NextScene = nextStage;
+            SceneManager.LoadScene("Loading");
 		}
 	}
 }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - MyItem
+  - Loader
   layers:
   - Default
   - TransparentFX

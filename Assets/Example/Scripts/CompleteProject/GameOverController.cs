@@ -55,7 +55,7 @@ namespace CompleteProject
 
 		public void Retry()
 		{
-			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("Loading");
 		}
 
 		public void RetryWithEasyMode ()
