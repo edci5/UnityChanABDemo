@@ -124,12 +124,12 @@ MonoBehaviour:
         height: 23
   - m_name: Build Asset Bundles
     m_id: c2fd40c7-d90c-4ad7-be81-5ccd5dc8cff1
-    m_x: 228
+    m_x: 396
     m_y: 228
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.BundleBuilder, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_instanceData: B64|eyJtX2VuYWJsZWRCdW5kbGVPcHRpb25zIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjI1Nn1dfSwibV9vdXRwdXREaXIiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkJ1bmRsZXMifV19LCJtX291dHB1dE9wdGlvbiI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoyfV19LCJtX292ZXJ3cml0ZUltcG9ydGVyU2V0dGluZyI6ZmFsc2V9
+      m_instanceData: B64|eyJtX2VuYWJsZWRCdW5kbGVPcHRpb25zIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOjI1Nn1dfSwibV9vdXRwdXREaXIiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkFzc2V0cy9TdHJlYW1pbmdBc3NldHMifV19LCJtX291dHB1dE9wdGlvbiI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoyfV19LCJtX292ZXJ3cml0ZUltcG9ydGVyU2V0dGluZyI6ZmFsc2V9
     m_inputPoints:
     - id: c0af9f71-80cf-4f87-9705-7690211cc932
       label: '-'
@@ -152,44 +152,14 @@ MonoBehaviour:
         y: 32.5
         width: 10
         height: 23
-  - m_name: Mirror Directory
-    m_id: e112c3f4-54a6-4541-bb55-aafa23db555a
-    m_x: 456
-    m_y: 228
-    m_nodeInstance:
-      m_className: UnityEngine.AssetBundles.GraphTool.MirrorDirectory, Assembly-CSharp-Editor,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_instanceData: B64|eyJtX3NyY1BhdGgiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkJ1bmRsZXMifV19LCJtX2RzdFBhdGgiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IkFzc2V0cy9TdHJlYW1pbmdBc3NldHMifV19LCJtX21pcnJvck9wdGlvbiI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjowfV19fQ==
-    m_inputPoints:
-    - id: c019a643-e05e-434f-b379-23768388784f
-      label: '-'
-      parentId: e112c3f4-54a6-4541-bb55-aafa23db555a
-      isInput: 1
-      buttonRect:
-        serializedVersion: 2
-        x: 0
-        y: 29.5
-        width: 21
-        height: 29
-    m_outputPoints:
-    - id: a6ed2d7f-d0e1-4ed3-bb78-3e0f92762e49
-      label: +
-      parentId: e112c3f4-54a6-4541-bb55-aafa23db555a
-      isInput: 0
-      buttonRect:
-        serializedVersion: 2
-        x: 130
-        y: 32.5
-        width: 10
-        height: 23
   - m_name: Build Player
     m_id: 61348f00-f194-4476-aef7-a88edc3e9e49
-    m_x: 696
+    m_x: 660
     m_y: 228
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.PlayerBuilder, Assembly-CSharp-Editor,
         Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_instanceData: B64|eyJtX2J1aWxkT3B0aW9ucyI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjowfV19LCJtX2J1aWxkTG9jYXRpb25zIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJQbGF5ZXIifV19LCJtX3BsYXllck5hbWUiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IlVuaXR5Q2hhbkFCRGVtbyJ9XX0sIm1fc2NlbmVzIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiIsODNmNGJlMzgwZTE5NTRiNzJiYmEwNzMwZTBkMDk1ZTEifV19LCJtX3Njcm9sbCI6eyJ4IjowLjAsInkiOjQ3NC4wfX0=
+      m_instanceData: B64|eyJtX2J1aWxkT3B0aW9ucyI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjowfV19LCJtX2J1aWxkTG9jYXRpb25zIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiJQbGF5ZXIifV19LCJtX3BsYXllck5hbWUiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6IlVuaXR5Q2hhbkFCRGVtbyJ9XX0sIm1fc2NlbmVzIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiIsODNmNGJlMzgwZTE5NTRiNzJiYmEwNzMwZTBkMDk1ZTEifV19LCJtX3Njcm9sbCI6eyJ4IjowLjAsInkiOjQ3Ni4wfX0=
     m_inputPoints:
     - id: 24f7a83e-b267-49d5-9076-5370da71ce64
       label: '-'
@@ -227,19 +197,13 @@ MonoBehaviour:
     m_toNodeId: c2fd40c7-d90c-4ad7-be81-5ccd5dc8cff1
     m_toNodeConnectionPoiontId: c0af9f71-80cf-4f87-9705-7690211cc932
     m_label: +
-  - m_id: 6c1d5d6b-93b9-43c2-b9e5-d76d7d36d60a
+  - m_id: 181bc52e-3bc1-4cc3-b00b-141793b5e294
     m_fromNodeId: c2fd40c7-d90c-4ad7-be81-5ccd5dc8cff1
     m_fromNodeConnectionPointId: 746c32cf-3644-422e-a79d-e61a0b337c0d
-    m_toNodeId: e112c3f4-54a6-4541-bb55-aafa23db555a
-    m_toNodeConnectionPoiontId: c019a643-e05e-434f-b379-23768388784f
-    m_label: +
-  - m_id: b67fc88b-968b-4413-a94a-fa1eb3b1817b
-    m_fromNodeId: e112c3f4-54a6-4541-bb55-aafa23db555a
-    m_fromNodeConnectionPointId: a6ed2d7f-d0e1-4ed3-bb78-3e0f92762e49
     m_toNodeId: 61348f00-f194-4476-aef7-a88edc3e9e49
     m_toNodeConnectionPoiontId: 24f7a83e-b267-49d5-9076-5370da71ce64
     m_label: +
-  m_lastModified: 131448470297457010
+  m_lastModified: 131448499553162270
   m_version: 2
   m_graphDescription: 
   m_useAsAssetPostprocessor: 0
