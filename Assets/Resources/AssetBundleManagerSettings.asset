@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69c1608f4913436b9d7eeab7f9f8000, type: 3}
+  m_Name: AssetBundleManagerSettings
+  m_EditorClassIdentifier: 
+  m_settings:
+  - m_name: New Streaming Assets
+    m_serverURL: 
+    m_localAssetBundleDirectory: 
+    m_manifestFileName: Bundles
+    m_isLocalServer: 0
+    m_isStreamingAssets: 1
+    m_withPlatformSubDir: 0
+  m_currentSetting:
+    m_name: New Streaming Assets
+    m_serverURL: 
+    m_localAssetBundleDirectory: 
+    m_manifestFileName: Bundles
+    m_isLocalServer: 0
+    m_isStreamingAssets: 1
+    m_withPlatformSubDir: 0
+  m_devBuildSetting:
+    m_name: New Streaming Assets
+    m_serverURL: 
+    m_localAssetBundleDirectory: 
+    m_manifestFileName: Bundles
+    m_isLocalServer: 0
+    m_isStreamingAssets: 1
+    m_withPlatformSubDir: 0
+  m_releaseBuildSetting:
+    m_name: New Streaming Assets
+    m_serverURL: 
+    m_localAssetBundleDirectory: 
+    m_manifestFileName: Bundles
+    m_isLocalServer: 0
+    m_isStreamingAssets: 1
+    m_withPlatformSubDir: 0
+  m_mode: 2
+  m_assetMap:
+    m_assets:
+    - path: Assets/Game/Scenes/Stages/Stage1.unity
+      bundleName: bundle_0
+      typeFullName: UnityEditor.SceneAsset
+    - path: Assets/Game/Scenes/Stages/Stage2.unity
+      bundleName: bundle_1
+      typeFullName: UnityEditor.SceneAsset
+    - path: Assets/Etc/playGROWnd/playground/Scenes/Test/CogenCity.asset
+      bundleName: shared_0_0
+      typeFullName: UnityEngine.Cubemap
+    - path: Assets/Example/Sounds/wildweasel/39026__wildweasel__keypickup.wav
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AudioClip
+    - path: Assets/Etc/IAPSample/Canvas.prefab
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Textures/FO_CLOTH1.tga
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Example/Materials/Pick Up_ex.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/UnityChan/Models/UnityChanShader/Shader/Unitychan_chara_fuku.shader
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Shader
+    - path: Assets/Etc/IAPSample/Sprites/coin 1.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/IAPSample/Art/ANIM/velhota/Idle/ANIM_VELHOTA_IDLE02.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/mth_u@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/smile2@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/Prefabs/SD_unitychan_humanoid.prefab
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Sprites/Bear.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/Teddy2/TeddyBear.fbx
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Textures/FO_SKIN1.tga
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Materials/wall_01.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Example/Sprites/UnityChan.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/Prefabs/Directional light for UnityChan.prefab
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Materials/mouth_mat.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/IAPSample/Art/FONTS/8bit_wonder/8-BIT WONDER.TTF
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Font
+    - path: Assets/Etc/IAPSample/Art/ANIM/redneck/Idle/ANIM_REDNECK_IDLE01.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Materials/def_mat.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/damaged@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Materials/pole_01.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Example/Animations/MovingBlock.controller
+      bundleName: shared_0_1
+      typeFullName: UnityEditor.Animations.AnimatorController
+    - path: Assets/Etc/playGROWnd/playground/Audio/Musics/neuson_06.wav
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AudioClip
+    - path: Assets/Example/Sprites/Coin.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_flag_02.fbx
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/mth_e@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/IAPSample/Sprites/question_box.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_slope_02.fbx
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/Animations/SD_unitychan_motion_humanoid.controller
+      bundleName: shared_0_1
+      typeFullName: UnityEditor.Animations.AnimatorController
+    - path: Assets/Example/Sprites/Bear_wb.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/IAPSample/Art/ANIM/velhota/Idle/ANIM_VELHOTA_IDLE01.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/IAPSample/Sprites/border-1.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Materials/wall_01_8x8.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/Teddy2/TeddyBear_normal.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_wall_01.prefab
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Materials/BallMat.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/playGROWnd/playground/Materials/flag_01.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/relux@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/eye_close@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/mth_R@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Textures/light_01.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_cvfloor_03.prefab
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Prefabs/Pick Up.prefab
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Textures/utc_all2.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/coin/Textures/coin_01_em.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/strain@sd_hmd.anim
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Textures/stair_01_spc.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/Teddy2/Materials/TeddyBear_color.mat
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Textures/utc_nomal.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Textures/pole_01_spc.png
+      bundleName: shared_0_1
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Materials/skin_mat.mat
+      bundleName: shared_0_2
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/UnityChan/SD_unitychan/Animations/SD_unitychan_motion_humanoid.fbx
+      bundleName: shared_0_2
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_Floor_4x4.prefab
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_slope_02.prefab
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/Teddy2/TeddyBear_color.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/Models/UnityChanShader/Shader/Unitychan_chara_fuku_ds.shader
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Shader
+    - path: Assets/Example/Animations/MovingBlock.anim
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/IAPSample/Art/ANIM/redneck/Idle/ANIM_REDNECK_IDLE00.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/IAPSample/Sprites/border.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/IAPSample/Art/camera.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_arrow_01.prefab
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_arrow_01.fbx
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/playGROWnd/playground/Materials/stair_01.mat
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/IAPSample/Art/ANIM/velhota/velhota_disabled.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/Models/UnityChanShader/Shader/Unitychan_chara_hair_ds.shader
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Shader
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_Floor_8x8.prefab
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/scold@sd_hmd.anim
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/coin/pG_coin_02.fbx
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Scenes/MiniGame_Complete/LightingData.asset
+      bundleName: shared_0_3
+      typeFullName: UnityEditor.LightingDataAsset
+    - path: Assets/Etc/IAPSample/Art/ANIM/velhota/Idle/ANIM_VELHOTA_IDLE00.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Example/Physics/Ground.physicMaterial
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.PhysicMaterial
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/mth_i@sd_hmd.anim
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Materials/light_01.mat
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_wall_11.fbx
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Physics/Wall.physicMaterial
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.PhysicMaterial
+    - path: Assets/Etc/IAPSample/Art/ANIM/redneck/Idle/ANIM_REDNECK_IDLE02.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/SD_unitychan_humanoid.fbx
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Prefabs/Stage/StaticObj_EasyMode.prefab
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_cvfloor_03.fbx
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/IAPSample/Sprites/cancel_button.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Materials/sign_04.mat
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/playGROWnd/playground/Textures/wall_01.png
+      bundleName: shared_0_3
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/coin/Textures/coin_01_nrm.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/IAPSample/UI_Canvas.prefab
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/smile@sd_hmd.anim
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Textures/sign_04.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_cvfloor_02.fbx
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/playGROWnd/playground/Textures/wall_01_spc.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Example/Scenes/MiniGame_Complete/ReflectionProbe-0.exr
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Cubemap
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_cvfloor_02.prefab
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/confuse@sd_hmd.anim
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Materials/wall_01_4x4.mat
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/IAPSample/Art/UI_MOEDA_X.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/surprise@sd_hmd.anim
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/UnityChan/Models/UnityChanShader/Shader/Unitychan_chara_hada.shader
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Shader
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Textures/ENV2.tga
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Materials/CitySkybox.mat
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_pole_01.fbx
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Physics/Ball.physicMaterial
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.PhysicMaterial
+    - path: Assets/Etc/playGROWnd/playground/Textures/stair_01.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Materials/hair_mat.mat
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/IAPSample/Art/FONTS/edit-undo/editundo.ttf
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Font
+    - path: Assets/Etc/IAPSample/Sprites/Coin.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Textures/stair_01_nrm.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Textures/crub_01.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Textures/pole_01_nrm.png
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/default@sd_hmd.anim
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_wall_09.fbx
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Example/Sounds/mansardian/61322__mansardian__news-end-signature.wav
+      bundleName: shared_0_4
+      typeFullName: UnityEngine.AudioClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/_faceOnly.mask
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.AvatarMask
+    - path: Assets/Etc/playGROWnd/playground/Audio/Musics/NewAudioMixer.mixer
+      bundleName: shared_0_5
+      typeFullName: UnityEditor.Audio.AudioMixerController
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/sad@sd_hmd.anim
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Textures/sign_05.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/mth_a@sd_hmd.anim
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Textures/utc_spec.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_wall_09.prefab
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/coin/Textures/coin_01.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Example/Prefabs/TeddyBear.prefab
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/playGROWnd/playground/Textures/wall_01_nrm.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Materials/nol_mat.mat
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/playGROWnd/playground/Prefabs/pG_wall_11.prefab
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/mth_L@sd_hmd.anim
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/Animations/RunUnityChan.controller
+      bundleName: shared_0_5
+      typeFullName: UnityEditor.Animations.AnimatorController
+    - path: Assets/Etc/playGROWnd/playground/Materials/crub_01.mat
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/UnityChan/SD_unitychan/Models/Textures/FO_RIM1.tga
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Audio/SE/jingle_01.wav
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.AudioClip
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/angry@sd_hmd.anim
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/IAPSample/Art/box.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_wall_01.fbx
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/coin/Materials/coin_01.mat
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/playGROWnd/playground/Models/pG_sign_04_Goal.fbx
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.GameObject
+    - path: Assets/Etc/IAPSample/Sprites/OK_button.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Example/Textures/GlassStainedAlbedo.tif
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/UnityChan/SD_unitychan/FaceAnimations/Humanoid/mth_o@sd_hmd.anim
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.AnimationClip
+    - path: Assets/Etc/playGROWnd/playground/Textures/pole_01.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    - path: Assets/Etc/playGROWnd/playground/Materials/sign_05.mat
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Material
+    - path: Assets/Etc/IAPSample/Sprites/close_button.png
+      bundleName: shared_0_5
+      typeFullName: UnityEngine.Texture2D
+    m_manifestName: StreamingAssets
+  m_clearCacheOnPlay: 0
+  m_version: 1
