@@ -27,7 +27,6 @@ namespace CompleteProject
 			rb = GetComponent<Rigidbody>();
 			count= 0;
 
-			int score = 0;
 			GameObject go = GameObject.Find("CoinNumUI");
 			Assert.IsNotNull( go );
 			scoreManager = go.GetComponent<ScoreManager>();

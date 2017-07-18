@@ -108,7 +108,7 @@ namespace Kino
         /// shading and HDR rendering.
         public bool ambientOnly {
             get {
-                return _ambientOnly && targetCamera.hdr && IsGBufferAvailable;
+                return _ambientOnly && targetCamera.allowHDR && IsGBufferAvailable;
             }
             set { _ambientOnly = value; }
         }

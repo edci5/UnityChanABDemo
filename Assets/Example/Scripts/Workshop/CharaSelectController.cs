@@ -12,11 +12,9 @@ public class CharaSelectController : MonoBehaviour
 	public GameObject playerObj;
 	private GoalChecker goalChecker;
 
-	private Button newOneButton;
 	// Use this for initialization
 	void Awake () 
 	{
-		newOneButton = newOneUI.GetComponent<Button>();
 		playerObj.SetActive(false);
 		defaultChara.SetActive(false);
 		newOneChara.SetActive(false);

@@ -116,7 +116,7 @@ public class OneStepEffects : EditorWindow {
 				Debug.LogError("Can't find any camera");
 				return;
 			}
-			cam.hdr = true;
+            cam.allowHDR = true;
 			cam.renderingPath = RenderingPath.DeferredShading;
 			myCameraObj = cam.gameObject;
 		}
