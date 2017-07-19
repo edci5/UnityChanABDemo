@@ -124,7 +124,7 @@ MonoBehaviour:
         height: 23
   - m_name: Build Asset Bundles
     m_id: c2fd40c7-d90c-4ad7-be81-5ccd5dc8cff1
-    m_x: 444
+    m_x: 636
     m_y: 228
     m_nodeInstance:
       m_className: UnityEngine.AssetBundles.GraphTool.BundleBuilder, Assembly-CSharp-Editor,
@@ -152,26 +152,6 @@ MonoBehaviour:
         y: 32.5
         width: 10
         height: 23
-  - m_name: Build Player
-    m_id: e16e322d-692b-4976-88a8-778263cc5390
-    m_x: 672
-    m_y: 228
-    m_nodeInstance:
-      m_className: UnityEngine.AssetBundles.GraphTool.PlayerBuilder, Assembly-CSharp-Editor,
-        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_instanceData: B64|eyJtX2J1aWxkT3B0aW9ucyI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjowfV19LCJtX2J1aWxkTG9jYXRpb25zIjp7Im1fdmFsdWVzIjpbeyJ0YXJnZXRHcm91cCI6MCwidmFsdWUiOiIuLyJ9XX0sIm1fcGxheWVyTmFtZSI6eyJtX3ZhbHVlcyI6W3sidGFyZ2V0R3JvdXAiOjAsInZhbHVlIjoiVW5pdHlDaGFuQUJEZW1vIn1dfSwibV9zY2VuZXMiOnsibV92YWx1ZXMiOlt7InRhcmdldEdyb3VwIjowLCJ2YWx1ZSI6Iiw4M2Y0YmUzODBlMTk1NGI3MmJiYTA3MzBlMGQwOTVlMSJ9XX0sIm1fc2Nyb2xsIjp7IngiOjAuMCwieSI6MC4wfX0=
-    m_inputPoints:
-    - id: a665a838-be30-4eef-a763-47c94711c9ae
-      label: '-'
-      parentId: e16e322d-692b-4976-88a8-778263cc5390
-      isInput: 1
-      buttonRect:
-        serializedVersion: 2
-        x: 0
-        y: 29.5
-        width: 21
-        height: 29
-    m_outputPoints: []
   m_allConnections:
   - m_id: 961c1439-5a72-4444-abc7-ac96175cb68c
     m_fromNodeId: 8e4d8db3-3c7a-4714-8fea-f6d77e305602
@@ -197,13 +177,7 @@ MonoBehaviour:
     m_toNodeId: c2fd40c7-d90c-4ad7-be81-5ccd5dc8cff1
     m_toNodeConnectionPoiontId: c0af9f71-80cf-4f87-9705-7690211cc932
     m_label: +
-  - m_id: 1199f10b-a40f-49b8-b2e0-c947cf765a95
-    m_fromNodeId: c2fd40c7-d90c-4ad7-be81-5ccd5dc8cff1
-    m_fromNodeConnectionPointId: 746c32cf-3644-422e-a79d-e61a0b337c0d
-    m_toNodeId: e16e322d-692b-4976-88a8-778263cc5390
-    m_toNodeConnectionPoiontId: a665a838-be30-4eef-a763-47c94711c9ae
-    m_label: +
-  m_lastModified: 131448553379687370
+  m_lastModified: 131448896250315020
   m_version: 2
   m_graphDescription: 
   m_useAsAssetPostprocessor: 0
