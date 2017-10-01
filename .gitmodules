@@ -4,6 +4,3 @@
 [submodule "Assets/AssetBundles-Browser"]
 	path = Assets/AssetBundles-Browser
 	url = https://github.com/Unity-Technologies/AssetBundles-Browser.git
-[submodule "Assets/AssetBundleGraphTool"]
-	path = Assets/AssetBundleGraphTool
-	url = https://bitbucket.org/Unity-Technologies/assetbundlegraphtool.git
