@@ -11,14 +11,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a69c1608f4913436b9d7eeab7f9f8000, type: 3}
   m_Name: AssetBundleManagerSettings
   m_EditorClassIdentifier: 
-  m_settings:
-  - {fileID: 114935074868689040}
-  - {fileID: 114676093426513312}
-  m_currentSetting: {fileID: 114935074868689040}
-  m_devBuildSetting: {fileID: 114935074868689040}
-  m_releaseBuildSetting: {fileID: 114935074868689040}
-  m_streamingAssetSetting: {fileID: 114935074868689040}
-  m_mode: 2
+  m_settings: []
+  m_currentSetting: {fileID: 0}
+  m_devBuildSetting: {fileID: 0}
+  m_releaseBuildSetting: {fileID: 0}
+  m_streamingAssetSetting: {fileID: 0}
+  m_mode: 1
   m_assetMap:
     m_assets:
     - path: Assets/Game/Scenes/Stages/Stage1.unity
@@ -447,35 +445,3 @@ MonoBehaviour:
     m_manifestName: StreamingAssets
   m_clearCacheOnPlay: 0
   m_version: 1
---- !u!114 &114676093426513312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb0d6761eedd644bb814b1710417863e, type: 3}
-  m_Name: LocalServer
-  m_EditorClassIdentifier: 
-  m_serverURL: 
-  m_localAssetBundleDirectory: Bundles
-  m_manifestFileName: Bundles
-  m_serverType: 0
-  m_withPlatformSubDir: 0
---- !u!114 &114935074868689040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb0d6761eedd644bb814b1710417863e, type: 3}
-  m_Name: Streaming Assets 1
-  m_EditorClassIdentifier: 
-  m_serverURL: 
-  m_localAssetBundleDirectory: 
-  m_manifestFileName: StreamingAssets
-  m_serverType: 2
-  m_withPlatformSubDir: 0
